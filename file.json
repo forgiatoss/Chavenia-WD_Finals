@@ -1,0 +1,22 @@
+[
+    {
+        "title": "About Me",
+        "link": "/about/index.html"
+    },
+    {
+        "title": "Resume",
+        "link": "/resume/index.html"
+    },
+    {
+        "title": "Favorite Song",
+        "link": "/music/index.html"
+    },
+    {
+        "title": "Project Overview",
+        "link": "/projectoverview/index.html"
+    },
+    {
+        "title": "Features Page",
+        "link": "/projects/index.html"
+    }
+]

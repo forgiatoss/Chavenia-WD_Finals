@@ -1,0 +1,124 @@
+/* assets/css/overview.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('/projectoverview/assets/img/bg.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin-right: 1rem;
+}
+
+.header nav ul li a {
+  color: #1b3c86;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover {
+  color: #2191ec;
+}
+
+.overview {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #000000cc;
+  box-shadow: 0 4px 8px #2191ec;
+  margin: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overview .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.overview h1 {
+  font-size: 3rem;
+  color: #1b3c86;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.overview p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #2191ec;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: linear-gradient(135deg, rgba(#2191ec), #2191ec);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: calc(33.333% - 2rem);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.card h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #1b3c86;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer .social-icons {
+  margin: 1rem 0;
+}
+
+.footer .social-icons a {
+  color: #1b3c86;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer .social-icons a:hover {
+  color: #2191ec;
+}
