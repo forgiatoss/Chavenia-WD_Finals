@@ -1,0 +1,36 @@
+/* ./assets/css/styles.css */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #e0e0e0;
+}
+
+.cardTitle {
+    font-size: 1.5em;
+    margin: 0;
+}
