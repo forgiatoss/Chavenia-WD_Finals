@@ -21,11 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardTitle.classList.add('cardTitle');
         cardTitle.textContent = project.title;
 
-        const cardDescription = document.createElement('p');
-        cardDescription.textContent = project.description;
-
         card.appendChild(cardTitle);
-        card.appendChild(cardDescription);
         cardHolder.appendChild(card);
     });
 });
