@@ -2,8 +2,8 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const cardHolder = document.getElementById('cardHolder');
-    
-    // Check if the cardHolder element exists
+
+    // Ensure the cardHolder element exists
     if (!cardHolder) {
         console.error('Element with id "cardHolder" not found.');
         return;
