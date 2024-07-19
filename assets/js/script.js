@@ -2,6 +2,12 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const cardHolder = document.getElementById('cardHolder');
+    
+    // Check if the cardHolder element exists
+    if (!cardHolder) {
+        console.error('Element with id "cardHolder" not found.');
+        return;
+    }
 
     const projects = [
         { title: 'About Me', url: '/aboutme/index.html' },
