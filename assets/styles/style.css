@@ -1,4 +1,4 @@
-/* ./assets/css/styles.css */
+/* style.css */
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/aesthetic.gif");
+    background-image: url("img/aesthetic.gif");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -26,11 +26,6 @@ body {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
     padding: 20px;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.container:hover {
-    transform: scale(1.05);
 }
 
 .title {
@@ -82,4 +77,21 @@ body {
 .card:hover .cardTitle {
     color: #ff69b4; /* Bright pink */
     font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
 }
