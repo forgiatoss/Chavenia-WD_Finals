@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const projects = [
         { title: 'About Me', url: '/aboutme/index.html' },
-        { title: 'My Resume', url: '/resume/index.html' },
+        { title: 'Resume', url: '/resume/index.html' },
         { title: 'Favorite Song', url: '/music/index.html' },
         { title: 'Project Overview', url: '/projectoverview/index.html' },
         { title: 'Projects Showcase', url: '/projects/index.html' }
