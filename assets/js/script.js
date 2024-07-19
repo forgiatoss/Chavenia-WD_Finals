@@ -1,4 +1,4 @@
-// assets/js/script.js
+// script.js
 
 document.addEventListener('DOMContentLoaded', function() {
     const cardHolder = document.getElementById('cardHolder');
